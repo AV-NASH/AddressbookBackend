@@ -9,6 +9,7 @@ public class AddressbookException extends RuntimeException{
 
     public enum ExceptionTypes{
         CONTACT_NOT_FOUND("Invalid Data.. Contact not found"),
+        CONTACT_ALREADY_PRESENT("Contact Already Present"),
         OTHER_EXCEPTION("other exceptions");
         public String errorMessage;
 
